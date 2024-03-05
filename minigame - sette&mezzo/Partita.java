@@ -2,6 +2,7 @@ import java.util.ArrayList;
 
 public class Partita
 {
+    
     public static final String TEXT_RESET = "\u001B[0m";
     public static final String TEXT_CYAN  = "\u001B[36m";
 
@@ -45,4 +46,5 @@ public class Partita
         stringBuilder.append("\nVALORE CARTE: " + TEXT_CYAN + "[" + giocatore.getSommaCarteGiocatore() + "]" + TEXT_RESET);
         return stringBuilder;
     }
+    
 }
